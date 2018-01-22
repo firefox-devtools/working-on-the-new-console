@@ -146,7 +146,7 @@ let hud1 = yield openConsole();
 
 ... you can replace it with a single helper function call:
 
-```
+```js
 let hud1 = await openNewTabAndConsole(TEST_URI);
 ```
 
